@@ -1,4 +1,4 @@
-package com.cafe_menu.entity;
+package com.cafe_menu.tanim.entity;
 
 import java.util.Date;
 
@@ -12,7 +12,15 @@ public class Kimlik {
     String babaAdi;
     Integer telefon;
     String mail;
+    String adres;
 
+    public String getAdres() {
+        return adres;
+    }
+
+    public void setAdres(String adres) {
+        this.adres = adres;
+    }
 
     public Integer getId() {
         return id;
